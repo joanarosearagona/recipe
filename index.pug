@@ -1,0 +1,17 @@
+.navbar.navbar-default.navbar-fixed-top(role='navigation')
+  .container
+    #navbar-header.navbar-header
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='#main-navbar', aria-expanded="false")
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      span#navbar-brand
+    #main-navbar.collapse.navbar-collapse
+      form.navbar-form.navbar-left(role="search", onkeypress="return event.keyCode != 13")
+        .form-group#search-bar
+      ul.nav.navbar-nav.navbar-right
+        li#add_new_recipe
+            
+//Content
+.container#recipes-content
